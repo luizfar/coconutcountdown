@@ -1,0 +1,33 @@
+body {
+  background: url('../img/binding_dark.png') repeat;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  color: #db3266;
+  text-shadow: 0 -1px 0 rgb(207, 132, 172), 0 1px 0 rgb(142, 9, 78), 0 0 40px rgba(0, 0, 0, 1);
+  font-family: "Oleo Script", cursive, sans-serif;
+  font-size: 99px;
+  margin-top: 100px;
+}
+
+.subtext {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(204, 204, 204);
+  padding-bottom: 30px;
+}
+
+.clock {
+  width: 650px;
+  margin: 50px auto;
+}
+
+.flip-clock-divider .flip-clock-label {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(204, 204, 204);
+}
