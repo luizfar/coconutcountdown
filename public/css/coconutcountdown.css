@@ -1,4 +1,6 @@
-body {
+html, body {
+  min-height:100%;
+  height:auto;
   background: url('../img/binding_dark.png') repeat;
 }
 
@@ -31,3 +33,30 @@ body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   color: rgb(204, 204, 204);
 }
+
+@media screen and (max-width: 767px) {
+  .header {
+    font-size: 54px;
+    min-width: 462px;
+    margin-top: 150px;
+  }
+
+  .subtext {
+    min-width: 462px;
+  }
+
+  .clock {
+    width: 462px;
+    padding-bottom: 300px;
+  }
+
+	.flip-clock-divider { height: 50px; }
+	.flip-clock-dot { height: 6px; width: 6px; left: 7px;}
+	.flip-clock-dot.top { top: 17px; }
+	.flip-clock-dot.bottom { bottom: 8px; }
+
+  .flip-clock-wrapper .flip { height: 50px; width: 37px; }
+	.flip-clock-wrapper ul li a div.up:after { top: 24px; }
+	.flip-clock-wrapper ul li a div div.inn { font-size: 30px; line-height: 50px; }
+}
+
