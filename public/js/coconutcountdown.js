@@ -3,7 +3,7 @@ var cc = cc || {};
 cc.bootstrap = function () {
   var now = new Date();
   var utc = new Date(now.getTime() + now.getTimezoneOffset() * 60000);
-  var arrival = new Date(2015, 2, 11, 19, 9);
+  var arrival = new Date(2018, 11, 31, 2, 0);
 
   console.log(arrival);
   console.log(utc);
